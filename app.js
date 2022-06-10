@@ -54,18 +54,6 @@ let type = "";
 let color = "";
 let size = "";
 
-if (typeId == "01") {
-  type = "Tank top";
-} else if (typeId == "02") {
-  type = "T-Shirt";
-} else if (typeId == "03") {
-  type = "Long Sleeve";
-} else if (typeId == "04") {
-  type == "Sweat Shirt";
-} else {
-  type = "Other";
-}
-
 switch (typeId) {
   case "01":
     type = "Tank top";
@@ -83,18 +71,6 @@ switch (typeId) {
     type ="Other";
 }
 
-if (colorId == "BL") {
-  color = "Black";
-} else if (colorId == "BU") {
-  color = "Blue";
-} else if (colorId == "RD") {
-  color = "Red";
-} else if (colorId == "PU") {
-  color = "Purple";
-} else {
-  color = "White";
-}
-
 switch (colorId) {
   case "BL":
     color = "Black";
@@ -110,18 +86,6 @@ switch (colorId) {
     break;
   default:
     type ="Other";
-}
-
-if (sizeId == "S") {
-  size = "Small";
-} else if (sizeId == "M") {
-  size = "Medium";
-} else if (sizeId == "L") {
-  size = "Large";
-} else if (sizeId == "XL") {
-  size = "Extra Large";
-} else {
-  size = "One Size Fits All";
 }
 
 switch (sizeId) {
